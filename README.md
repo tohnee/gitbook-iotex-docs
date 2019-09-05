@@ -1947,7 +1947,7 @@ Response:
   count:  total number of reward distributions
 ```
 
-**＃生产力**
+#### **生产力**
 
 ```text
 Usage:
@@ -1964,7 +1964,7 @@ Response:
   expectedProduction: number of expected block productions
 ```
 
-**＃奖励**
+**奖励**
 
 ```text
 Usage:
@@ -1982,7 +1982,7 @@ Response:
   foundationBonus: amount of foundation bonus
 ```
 
-**＃BucketInfo**
+**BucketInfo**
 
 ```text
 Usage:
@@ -2002,7 +2002,7 @@ Response:
   count: total number of buckets in the given epoch for the given delegate
 ```
 
-**＃放样**
+#### staking
 
 ```text
 Usage:
@@ -2176,9 +2176,9 @@ Sample Response:
 }
 ```
 
-## 链
+### 链
 
-**＃MostRecentEpoch**
+**MostRecentEpoch**
 
 ```text
 Usage: 
@@ -2191,7 +2191,7 @@ Response:
   mostRecentEpoch: latest epoch number
 ```
 
-**＃MostRecentBlockHeight**
+**MostRecentBlockHeight**
 
 ```text
 Usage: 
@@ -2204,7 +2204,7 @@ Response:
   mostRecentBlockHeight: latest block height
 ```
 
-**＃MostRecentTPS**
+**MostRecentTPS**
 
 ```text
 Usage: 
@@ -2217,7 +2217,7 @@ Response:
   mostRecentTPS: latest transactions per second
 ```
 
-**＃NumberOfActions**
+**NumberOfActions**
 
 ```text
 Usage: 
@@ -2267,7 +2267,7 @@ Sample Response:
 } 
 ```
 
-## 投票
+### 投票
 
 ```text
 Usage:
@@ -2339,9 +2339,9 @@ Sample Response:
 }  
 ```
 
-## 帐户
+### 帐户
 
-**＃ActiveAccounts**
+**ActiveAccounts**
 
 ```text
 Usage: 
@@ -2354,7 +2354,7 @@ Response:
   activeAccounts: list of account addresses
 ```
 
-**＃OperatorAddress**
+**OperatorAddress**
 
 ```text
 Usage: 
@@ -2368,7 +2368,7 @@ Response:
   operatorAddress:  operator address associated with the given alias name
 ```
 
-**＃别名**
+**别名**
 
 ```text
 Usage: 
@@ -2426,28 +2426,28 @@ Sample Response:
 }  
 ```
 
-### [＃](https://docs.iotex.io/#testnet)Testnet <a id="testnet"></a>
+## Testnet 测试网
 
-IoTeX Testnet现已完全向社区和开发人员开放！加入我们的Testnet，立即与IoTeX网络互动！
+IoTeX Testnet 现已完全向社区和开发人员开放！加入我们的 Testnet，立即与 IoTeX 网络互动！
 
-#### [＃](https://docs.iotex.io/#set-up-the-node)设置节点 <a id="set-up-the-node"></a>
+### 设置节点
 
-我们的完整软件以docker镜像和配置文件的形式打包，以方便设置和部署。您可以按照https://github.com/iotexproject/iotex-testnet上的说明轻松设置和运行节点。
+我们的完整软件以 docker 镜像和配置文件的形式打包，以方便设置和部署。您可以按照 https://github.com/iotexproject/iotex-testnet 上的说明轻松设置和运行节点。
 
-截至目前，您的节点将作为完整节点加入IoTeX网络。一旦我们在testnet上打开赌注/投票，您就可以将您的完整节点提升为代表并参与块生产。预计在接下来的几周内。
+截至目前，您的节点将应作为完整节点加入IoTeX网络。一旦我们在 testnet 上打开质押/投票，您就可以将您的完整节点提升为代表并参与块生产。预计在接下来的几周内可以实现。
 
-#### [＃](https://docs.iotex.io/#talk-to-us)跟我们说说 <a id="talk-to-us"></a>
+### 跟我们反馈
 
-如果您在连接到测试网时遇到任何技术问题，请随时通过[gitter](https://gitter.im/iotex-dev-community/Lobby)与我们联系。除此之外，请在https://github.com/iotexproject/iotex-core/issues下提交问题，我们将进行调查。
+如果您在连接到测试网时遇到任何技术问题，请随时通过 [gitter](https://gitter.im/iotex-dev-community/Lobby) 与我们联系。除此之外，请在 https://github.com/iotexproject/iotex-core/issues 下提交问题，我们将进行调查。
 
-### [＃](https://docs.iotex.io/#write-a-smart-contract)写一份智能合约 <a id="write-a-smart-contract"></a>
+## 写一份智能合约
 
 TBD
 
-### [＃](https://docs.iotex.io/#glossary)词汇表 <a id="glossary"></a>
+## 词汇表
 
-* 委托：选择提出并验证新块的区块链节点，即块生成器。
+* Delegate：选择提出并验证新块的区块链节点，即块生成器。
 * [Solidity](https://en.wikipedia.org/wiki/Solidity)：面向合同的编程语言。
-* 时代：一个纪元由8640块组成，由同一组代表负责。
-* 块周期：块生成的间隔（秒）。在主网络启动期间，阻塞时间为10秒，随着协议的稳定而减少。
+* Epoch：一个纪元由8640块组成，由同一组代表负责。
+* Block period：块生成的间隔（秒）。在主网络启动期间，时间为10秒，随着协议的稳定而减少。
 
